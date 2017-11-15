@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Login_1510759341546.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Login_1510759341546.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Order_Tracking_Not_Available_At_GearBest_1510759355439.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Order_Tracking_Not_Available_At_GearBest_1510759355439.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Gati_Order_Tracking_1510759387448.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Gati_Order_Tracking_1510759387448.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Logout_1510759397911.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Logout_1510759397911.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89431" started-at="2017-11-15T15:21:50Z" finished-at="2017-11-15T15:23:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="89431" started-at="2017-11-15T15:21:50Z" finished-at="2017-11-15T15:23:20Z">
+      <class name="com.test.automation.orderdetails.TC004_Verify_Order_Details_And_Tracking">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.orderdetails.TC004_Verify_Order_Details_And_Tracking@2f8f11]" name="setup" is-config="true" duration-ms="15210" started-at="2017-11-15T20:51:50Z" finished-at="2017-11-15T20:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.test.automation.orderdetails.TC004_Verify_Order_Details_And_Tracking@2f8f11]" name="verifyLogin" duration-ms="61454" started-at="2017-11-15T20:52:06Z" finished-at="2017-11-15T20:53:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Login_1510759341546.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Login_1510759341546.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Order_Tracking_Not_Available_At_GearBest_1510759355439.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Order_Tracking_Not_Available_At_GearBest_1510759355439.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Gati_Order_Tracking_1510759387448.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Gati_Order_Tracking_1510759387448.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.orderdetails.TC004_Verify_Order_Details_And_Tracking@2f8f11]" name="endTest" is-config="true" duration-ms="12755" started-at="2017-11-15T20:53:07Z" finished-at="2017-11-15T20:53:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Logout_1510759397911.png'> <img src='C:\Users\madhav\eclipse-workspace\Gearbest\Screenshot\Logout_1510759397911.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.orderdetails.TC004_Verify_Order_Details_And_Tracking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
