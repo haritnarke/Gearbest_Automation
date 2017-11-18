@@ -26,7 +26,7 @@ public class TC004_Verify_Order_Details_And_Tracking extends TestBase{
 
 		login = new Login(driver);
 		login.LoginToTheApplication();
-		screencapture("Login_");
+		screencapture("Login_Success_");
 		System.out.println(login.GetAccountName());
 		AssertJUnit.assertEquals(login.GetAccountName(), readdata("AccountName"));
 		orderdetails = new OrderHistory(driver);

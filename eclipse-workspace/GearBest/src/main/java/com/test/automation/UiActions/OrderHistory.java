@@ -100,18 +100,18 @@ public class OrderHistory extends ReadDataFromPropertiesFile {
 		
 
 		// Logic to iterate between the table to print out all the values of tracking
-		List<WebElement> row = driver.findElements(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr[1]/td"));
+		List<WebElement> col = driver.findElements(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr[1]/td"));
+		List<WebElement> row = driver.findElements(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr/td[1]"));
 		int ROW = row.size();
-		List<WebElement> col = driver.findElements(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr/td[1]"));
 		int COL = col.size();
-
+//System.out.println(ROW+" "+COL);
 		for (int a = 1; a <= ROW; a++) {
 			for (int b = 1; b <= COL; b++) {
-				if (a == 1 && b == 1 ||a == 2 && b == 1 ||a == 3 && b == 1  )
+				if (b == 1)
 					System.out.println("Date             :"+driver.findElement(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr[" + a + "]/td[" + b + "]")).getText());
-				if (a == 1 && b == 2||a == 2 && b == 2||a == 3 && b == 2)
+				if (b == 2)
 					System.out.println("Place            :"+driver.findElement(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr[" + a + "]/td[" + b + "]")).getText());
-				if (a == 1 && b == 3||a == 2 && b == 3||a == 3 && b == 3)
+				if (b == 3)
 					System.out.println("Status           :"+driver.findElement(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr[" + a + "]/td[" + b + "]")).getText());
 				
 				//System.out.println(driver.findElement(By.xpath("//*[@id=\"track_list_show\"]/div/table/tbody/tr[" + a + "]/td[" + b + "]")).getText());
@@ -120,7 +120,7 @@ public class OrderHistory extends ReadDataFromPropertiesFile {
 		}
 		Thread.sleep(5000);
 		// Close the gati tab and go back to orignal tab to logout
-		
+		jse.executeScript("window.scrollBy(0,250)", "");
 		basicutilities.screencapture("Gati_Order_Tracking_");
 		driver.close();
 		driver.switchTo().window(PresentWindowHandle);
